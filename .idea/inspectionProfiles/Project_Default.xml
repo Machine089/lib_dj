@@ -1,0 +1,74 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="c.slug" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="li" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="shortener.schema" />
+          <option value="shorty.shorty.urls.root" />
+          <option value="django.db.models.fields.URLField.encode" />
+          <option value="shorty.shortener.models.URL.id" />
+          <option value="shorty.shortener.models.URL.objects" />
+          <option value="myshop.shop.models.Category.objects" />
+          <option value="myshop.shop.models.Product.objects" />
+          <option value="shop.models.Product.objects" />
+          <option value="shop.models.Category.objects" />
+          <option value="shop.models.Product.id" />
+          <option value="orders.models.Order.items" />
+          <option value="orders.models.OrderItem.id" />
+          <option value="orders.models.Order.id" />
+          <option value="django.db.models.fields.DecimalField.__mul__" />
+          <option value="orders.models.OrderItem.objects" />
+          <option value="orders.models.Order.objects" />
+          <option value="coupons.models.Coupon.objects" />
+          <option value="coupons.models.Coupon.DoesNotExists" />
+          <option value="polls.models.Question.DoesNotExist" />
+          <option value="polls.models.Question.objects" />
+          <option value="polls.models.Choice.DoesNotExist" />
+          <option value="super.form_valid" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
